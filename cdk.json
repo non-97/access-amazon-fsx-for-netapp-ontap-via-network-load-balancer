@@ -17,6 +17,11 @@
     ]
   },
   "context": {
+    "vpcID": "vpc-0bdab140380e5888e",
+    "dnsIPs": [
+      "10.0.0.138"
+    ],
+    "serviceAccountSecretName": "/fsx-dev.classmethod.jp/FSxForNetAppONTAP/ServiceAccount",
     "@aws-cdk/aws-apigateway:usagePlanKeyOrderInsensitiveId": true,
     "@aws-cdk/core:stackRelativeExports": true,
     "@aws-cdk/aws-rds:lowercaseDbIdentifier": true,
